@@ -1,0 +1,59 @@
+{
+  "name": "imdb-movies-search",
+  "version": "1.0.0",
+  "description": "Display data from imdb moies API using React hooks",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudiharush/favorite-tracks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dudiharush/imdb-movies-search/issues"
+  },
+  "homepage": "https://github.com/dudiharush/imdb-movies-search#readme",
+  "dependencies": {
+    "@types/jest": "24.0.13",
+    "@types/react-dom": "16.8.4",
+    "debounce": "^1.2.0",
+    "query-string": "^6.5.0",
+    "react": "^16.8.6",
+    "react-autocomplete": "^1.8.1",
+    "react-autosuggest": "^9.4.3",
+    "react-debounce-input": "^3.2.0",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.1",
+    "typescript": "3.4.5"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^12.0.2",
+    "@types/react": "^16.8.17",
+    "@types/react-bootstrap": "^0.32.17",
+    "@types/react-router-dom": "^4.3.3"
+  }
+}
